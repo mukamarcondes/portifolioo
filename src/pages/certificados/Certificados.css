@@ -1,0 +1,79 @@
+.containeer {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1500px;
+  }
+  
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+  .carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+  }
+  
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  .carousel__face:nth-child(1) {
+    background-image: url("https://i.pinimg.com/originals/71/ee/32/71ee32577432648f9e45fbd63b2cf261.jpg");
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("https://global-uploads.webflow.com/5babd501fb0eee7ea33c30a3/6058fa7293d8030bd31bdf7b_-5g.jpg");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("https://www.globalmind.com.br/wp-content/uploads/2021/05/aws-header_tvMEUF2.width-800.png");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("https://dkrn4sk0rn31v.cloudfront.net/uploads/2018/03/01133925/javascript.png");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("https://www.piramidal.com.br/blog/wp-content/uploads/2022/01/shutterstock_1919518907.png");
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("http://arquivo.devmedia.com.br/marketing/img/guia-html-38051.png");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("https://www.blogson.com.br/wp-content/uploads/2021/03/csharp1-738x430.jpg");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("https://gtrigueiro.com.br/wp-content/uploads/2021/09/lgpd-vanzolini-1200x874-1-1024x746.jpg");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2022/10/linux-6-0-e-oficialmente-lancado-veja-o-que-ha-de-novo.jpg");
+    transform: rotateY(320deg) translateZ(430px); }
+  .carousel__face:nth-child(10) {
+    background-image: url("https://d1i4tvf70h7zdy.cloudfront.net/ead/cursos/5c782f2ad62ee.png");
+    transform: rotateY(360deg) translateZ(430px); }
+  .carousel__face:nth-child(11) {
+    background-image: url("https://apexensino.com.br/wp-content/uploads/2020/05/python-1280x640.jpg");
+    transform: rotateY(400deg) translateZ(430px); }
+ .carousel__face:nth-child(12) {
+    background-image: url("https://www.lockheedmartin.com/content/dam/lockheed-martin/eo/photo/suppliers/cybersecurity-masthead-1920.jpg.pc-adaptive.full.medium.jpeg");
+    transform: rotateY(420deg) translateZ(430px); }
+
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }

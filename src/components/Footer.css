@@ -1,0 +1,10 @@
+.rodape{
+    background-color: rgb(39, 39, 39);
+    color: rgb(2, 204, 255);
+}
+footer{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
