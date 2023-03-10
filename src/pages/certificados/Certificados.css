@@ -1,8 +1,13 @@
+.tudo{
+  background: rgba(101, 101, 101, 0.484);
+}
+
 .containeer {
     position: relative;
     width: 320px;
     margin: 100px auto 0 auto;
     perspective: 1500px;
+    margin-bottom: 35%;
   }
   
   .carousel {
@@ -24,10 +29,6 @@
     display: flex;
   }
   
-  span {
-    margin: auto;
-    font-size: 2rem;
-  }
   
   .carousel__face:nth-child(1) {
     background-image: url("https://i.pinimg.com/originals/71/ee/32/71ee32577432648f9e45fbd63b2cf261.jpg");
@@ -76,4 +77,31 @@
     to {
       transform: rotateY(-360deg);
     }
+  }
+
+  /* ecrita */
+
+  .curso{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .escrita{
+      list-style: none;
+      margin: auto;
+      margin-bottom: 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .escrita a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(0, 128, 255);
   }

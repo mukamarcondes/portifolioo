@@ -4,13 +4,13 @@
         justify-content: center;
         align-items: center;
         /* min-height: 100vh; */
-        background: linear-gradient(rgba(2, 204, 255, 0.484), rgba(2, 204, 255, 0.484) 45%, rgba(190, 190, 190, 0.54) 45%, rgba(190, 190, 190, 0.54) 100%);
+        background: rgba(101, 101, 101, 0.484);
 }
 .card {
         position: relative;
         
-        width: 700px;
-        height: 400px;
+        width: 900px;
+        height: 500px;
         background: #fff;
         border-radius: 10px;
         background: rgba(255, 255, 255, 0.1);
@@ -18,8 +18,8 @@
         backdrop-filter: blur(15px);
         box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
         margin: auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin-top: 15%;
+        margin-bottom: 15%;
       }
       
       .img-bx {
@@ -62,14 +62,14 @@
       }
       
       .content .detail h2 {
-        color: #444;
+        color: #000;
         font-size: 1.6em;
         font-weight: bolder;
       }
       
       .content .detail h2 span {
         font-size: 0.7em;
-        color: #03a9f4;
+        color: rgb(23, 162, 197);
         font-weight: bold;
       }
       
@@ -99,8 +99,20 @@
         transition: 0.5s;
       }
       
-      .sci li a:hover {
+      .sci .um a:hover {
+        background: #0347f4;
+        color: #fff;
+      }
+      .sci .dois a:hover {
+        background: #e32424;
+        color: #fff;
+      }
+      .sci .tres a:hover {
         background: #03a9f4;
+        color: #fff;
+      }
+      .sci .quatro a:hover {
+        background: #e403f4;
         color: #fff;
       }
       

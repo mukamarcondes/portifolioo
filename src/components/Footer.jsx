@@ -7,7 +7,7 @@ export default function Footer() {
         <div className='rodape'> 
             <footer>
     
-                <p className="texto">copyright ©Murilo Marcondes Silva</p>
+                <p className="texto">Copyright © 2023 Murilo Marcondes</p>
        
             </footer>
         </div>
