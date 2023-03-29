@@ -5,9 +5,13 @@
     justify-content: center;
 }
 
+.t{
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .coluna-arrumada{
     display: flex;
-    width: 60%;
+    width: 80%;
   }
 .image-left {
     width: 50%;
@@ -46,4 +50,38 @@
   }
   .t{
     background: rgba(101, 101, 101, 0.484);
+  }
+
+  @media (max-width: 1800px){
+    
+    .App{
+      margin-bottom: 25%;
+    }
+  
+    }
+
+  @media (max-width: 1200px){
+    
+  .eu{
+        width: 300px;
+        height: 300px;
+        margin-left: -100px;
+    }
+
+  }
+
+  @media (max-width: 900px){
+    
+    .App{
+      margin-bottom: 30%;
+    }
+  
+    }
+
+  @media (max-width: 590px){
+
+      .conteudo-principal-titulo{
+        font-size: 28px;
+      }
+
   }
