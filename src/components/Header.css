@@ -40,6 +40,7 @@ header{
 
 .button-menu{
     display: none;
+    color: rgb(2, 204, 255);
 }
 
 .coitainer-header{
@@ -67,5 +68,17 @@ header{
         margin-top: 7.5rem;
         background-color: black;
         display: flex;
+        width: 100%;
+        margin-left: -150px;
       }
+      ul{
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+      }
+
+      .nome{
+        display: none;
+       }
+
     }

@@ -11,7 +11,7 @@
 
 .coluna-arrumada{
     display: flex;
-    width: 80%;
+    width: 85%;
   }
 .image-left {
     width: 50%;
@@ -31,8 +31,8 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 11%;
+  margin-bottom: 11%;
 }
 .eu{
     width: 400px;
@@ -82,6 +82,21 @@
 
       .conteudo-principal-titulo{
         font-size: 28px;
+      }
+
+      .coluna-arrumada{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin: 5%;
+      }
+      .image-left{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+        margin-left: 6.5rem;
       }
 
   }
