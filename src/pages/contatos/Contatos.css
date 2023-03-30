@@ -5,12 +5,13 @@
         align-items: center;
         /* min-height: 100vh; */
         background: rgba(101, 101, 101, 0.484);
+        width: 100%;
+        height: 100%;
 }
 .card {
         position: relative;
-        
-        width: 900px;
-        height: 500px;
+        width: 50rem;
+        height: 30rem;
         background: #fff;
         border-radius: 10px;
         background: rgba(255, 255, 255, 0.1);
@@ -116,3 +117,41 @@
         color: #fff;
       }
       
+      @media (max-width:815px) {
+
+        .card{
+            width: 40rem;
+            height: 30rem;
+        }
+
+      }
+
+      @media (max-width:660px) {
+
+        .card{
+            width: 30rem;
+            height: 20rem;
+            margin-top: 20%;
+            margin-bottom: 20%;
+        }
+        .detail{
+          width: 20rem;
+        }
+        .sci{
+          width: 20rem;
+        }
+        .img-bx{
+          height: 15rem;
+        }
+
+      }
+
+      @media (max-width:495px){
+
+          .card{
+            width: 20rem;
+            margin-top: 15rem;
+            margin-bottom: 15rem;
+          }
+
+      }

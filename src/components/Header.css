@@ -71,7 +71,7 @@ header{
         width: 100%;
         margin-left: -150px;
       }
-      ul{
+      .icon{
         justify-content: center;
         align-items: center;
         font-size: 15px;
@@ -80,5 +80,13 @@ header{
       .nome{
         display: none;
        }
+
+    }
+
+    @media (max-width:400px){
+
+        .icon{
+            font-size: 12px;
+        }
 
     }

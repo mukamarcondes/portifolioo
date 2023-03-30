@@ -2,19 +2,24 @@
   background: rgba(101, 101, 101, 0.484);
   font-family: 'Times New Roman', Times, serif;
 }
+.container-geral{
+  display: flex;
+  flex-direction: column;
+}
 
 .containeer {
-    position: relative;
+
     width: 320px;
-    margin: 100px auto 0 auto;
-    perspective: 1500px;
-    margin-bottom: 35%;
+    margin: auto;
+    margin-top: 100px;
+    perspective: 1000px;
+    /* margin-bottom: 35%; */
   }
   
   .carousel {
-    position: absolute;
+    display: flex;
+    height: 300px;
     width: 100%;
-    height: 100%;
     transform-style: preserve-3d; 
     animation: rotate360 60s infinite forwards linear;
   }
@@ -88,13 +93,20 @@
   }
   .escrita{
       list-style: none;
-      margin: auto;
-      margin-bottom: 5%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
+  }
+ 
+  .li{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
   }
   a{
     color: black;
@@ -105,4 +117,13 @@
   cursor: pointer;
   text-decoration: underline;
   color: rgb(0, 128, 255);
+  }
+
+  @media (max-width: 1000px){
+
+      .containeer{
+        perspective: 1000px;
+        width: -10%;
+      }
+
   }
