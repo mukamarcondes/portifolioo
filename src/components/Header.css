@@ -1,92 +1,91 @@
-li{
-    color: gray;
-    list-style: none;
-    width: 130px;
+li {
+  color: gray;
+  list-style: none;
+  width: 130px;
+  text-align: center;
 }
-ul{
-    flex-direction: row;
+
+ul {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: auto;
+}
+.icon {
+  /* text-decoration: none; */
+  color: rgb(2, 204, 255);
+}
+header {
+  background-color: rgb(39, 39, 39);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.nome {
+  display: flex;
+  margin-left: 20px;
+  color: white;
+}
+.foto {
+  flex-direction: row;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.button-menu {
+  display: none;
+  color: rgb(2, 204, 255);
+}
+
+.coitainer-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .button-menu {
+    display: block;
+    position: absolute;
+    right: 100px;
+    background-color: transparent;
+    justify-content: center;
+    font-size: 1.5em;
+    color: rgb(0, 255, 251);
+    border: transparent;
+    padding: 20px;
+  }
+
+  .filtro {
+    margin-top: 7.5rem;
+    background-color: black;
     display: flex;
-}
-.icon{
-    text-decoration: none;
-    color: rgb(2, 204, 255);
-}
-header{
-    background-color: rgb(39, 39, 39);
     width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
+    margin-left: -150px;
+  }
+  .icon {
+    justify-content: center;
     align-items: center;
-}
-.logo{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-.nome{
-    
-    display: flex;
-    margin-left: 20px;
-    color: white;
-}
-.foto{
-    flex-direction: row;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-left: 3rem;
-}
+    font-size: 15px;
+  }
 
-.button-menu{
+  .nome {
     display: none;
-    color: rgb(2, 204, 255);
+  }
 }
 
-.coitainer-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+@media (max-width: 400px) {
+  .icon {
+    font-size: 12px;
+  }
 }
-
-@media (max-width: 700px){
-
-      .button-menu{
-        display: block;
-        position: absolute;
-        right: 100px;
-        background-color: transparent;
-        justify-content: center;
-        font-size: 1.5em;
-        color: rgb(0, 255, 251);
-        border: transparent;
-        padding: 20px;
-        
-      }
-
-      .filtro{
-        margin-top: 7.5rem;
-        background-color: black;
-        display: flex;
-        width: 100%;
-        margin-left: -150px;
-      }
-      .icon{
-        justify-content: center;
-        align-items: center;
-        font-size: 15px;
-      }
-
-      .nome{
-        display: none;
-       }
-
-    }
-
-    @media (max-width:400px){
-
-        .icon{
-            font-size: 12px;
-        }
-
-    }
