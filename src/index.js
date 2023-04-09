@@ -12,6 +12,7 @@ import Home from "./pages/sobre/home";
 import Contato from "./pages/contatos/Contatos";
 import Certificados from "./pages/certificados/Certificados";
 import reportWebVitals from "./reportWebVitals";
+import Test from "./pages/teste";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,6 +26,7 @@ root.render(
           children={true}
           element={<Certificados />}
         />
+        <Route path="/test" children={true} element={<Test />} />
         <Route path="/notFound" element={<noFound />} />
         <Route
           path="*"
