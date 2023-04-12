@@ -1,5 +1,10 @@
+body {
+  background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/1987592-abstrato-geometrico-branco-e-cinza-diagonal-linhas-fundo-gratis-vetor.jpg);
+  background-size: cover;
+}
+/* jsdhjgvds */
 .conteudo-principal-titulo {
-  font-size: 38px;
+  font-size: 34px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -15,7 +15,7 @@ function Home() {
               <img className="eu" src={Eu} alt="minha foto" />
             </div>
             <div className="container">
-              <h2 className="conteudo-principal-titulo">Sobre mim :</h2>
+              <h2 className="conteudo-principal-titulo">QUEM SOU EU ?</h2>
               <p>
                 Olá, prazer meu nome é Murilo Marcondes Silva terminei em 2022 o
                 3º ano do ensino médio no SESI 111 - IPIRANGA,
